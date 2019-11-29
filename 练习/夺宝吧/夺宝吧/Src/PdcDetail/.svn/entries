@@ -1,0 +1,180 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Src/PdcDetail
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+HistoryNum
+dir
+
+LockView
+dir
+
+DetailCell.xib
+file
+
+
+
+
+2016-01-05T02:47:26.000000Z
+abccf7f1fe3ff7e8c33f18ba2ad9034d
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+Roles
+dir
+
+RecordModel.h
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+fa34df9e7b4b62f8eb26425cea66adf1
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+DetailCell.h
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+54191b43fa21eccb69bb3a7f6f68221e
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+BeforePublish
+dir
+
+RecordModel.m
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+044f4e9c3c75953b324bef162b62c933
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+BottomBtns
+dir
+
+DetailCell.m
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+5f8b35b7499f6c3224df9355cbe587e7
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+DetailImg
+dir
+
+DetailHeader.h
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+a5a0dc78855d6e02c66689aab48b904a
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+DetailHeader.m
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+68dfbeae31af0315f2e9e578d42c9ce8
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+PdcDetailVC.h
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+73f462363bad6d8e6a03a62b57df6d88
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+DetailModel.h
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+1006469f68b3c79ae8daed31e544f192
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+HeaderDetail
+dir
+
+PdcDetailVC.m
+file
+
+
+
+
+2016-01-05T10:35:28.000000Z
+82b10be7b7f8bb31272d36eff4250550
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+DetailModel.m
+file
+
+
+
+
+2015-12-15T02:23:06.000000Z
+53efd91fa954dbedadaa957e54db6a70
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+

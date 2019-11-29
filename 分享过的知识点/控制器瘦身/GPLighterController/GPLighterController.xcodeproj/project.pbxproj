@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA91850ED59E38734C7306C /* libPods-GPLighterController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A298012D24902CAFCAE474 /* libPods-GPLighterController.a */; };
+		E032A8F7225F5811004A4FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A8F6225F5811004A4FBF /* AppDelegate.m */; };
+		E032A8FA225F5811004A4FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A8F9225F5811004A4FBF /* ViewController.m */; };
+		E032A8FD225F5811004A4FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E032A8FB225F5811004A4FBF /* Main.storyboard */; };
+		E032A8FF225F5814004A4FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E032A8FE225F5814004A4FBF /* Assets.xcassets */; };
+		E032A902225F5814004A4FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E032A900225F5814004A4FBF /* LaunchScreen.storyboard */; };
+		E032A905225F5814004A4FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A904225F5814004A4FBF /* main.m */; };
+		E032A90F225F5814004A4FBF /* GPLighterControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A90E225F5814004A4FBF /* GPLighterControllerTests.m */; };
+		E032A91A225F5814004A4FBF /* GPLighterControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A919225F5814004A4FBF /* GPLighterControllerUITests.m */; };
+		E032A968225F58BA004A4FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E032A929225F58B9004A4FBF /* Assets.xcassets */; };
+		E032A969225F58BA004A4FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E032A92C225F58B9004A4FBF /* LaunchScreen.storyboard */; };
+		E032A96A225F58BA004A4FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E032A92E225F58B9004A4FBF /* Main.storyboard */; };
+		E032A96B225F58BA004A4FBF /* GPHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A931225F58B9004A4FBF /* GPHttpTool.m */; };
+		E032A96C225F58BA004A4FBF /* GPHttpBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A932225F58B9004A4FBF /* GPHttpBase.m */; };
+		E032A96D225F58BA004A4FBF /* GPJianDaoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A933225F58B9004A4FBF /* GPJianDaoHeader.m */; };
+		E032A96E225F58BA004A4FBF /* GPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A935225F58B9004A4FBF /* GPWebViewController.m */; };
+		E032A96F225F58BA004A4FBF /* GPWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E032A936225F58B9004A4FBF /* GPWebViewController.storyboard */; };
+		E032A970225F58BA004A4FBF /* GPFairArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A93A225F58BA004A4FBF /* GPFairArrayDataSource.m */; };
+		E032A971225F58BA004A4FBF /* GPFairDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A93C225F58BA004A4FBF /* GPFairDelegate.m */; };
+		E032A972225F58BA004A4FBF /* GPFairTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A93E225F58BA004A4FBF /* GPFairTableViewController.m */; };
+		E032A973225F58BA004A4FBF /* GPFariGoodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A940225F58BA004A4FBF /* GPFariGoodsController.m */; };
+		E032A974225F58BA004A4FBF /* GPFariMeturController.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A942225F58BA004A4FBF /* GPFariMeturController.m */; };
+		E032A975225F58BA004A4FBF /* GPMeturController.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A944225F58BA004A4FBF /* GPMeturController.m */; };
+		E032A976225F58BA004A4FBF /* GPFariBestData.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A947225F58BA004A4FBF /* GPFariBestData.m */; };
+		E032A977225F58BA004A4FBF /* GPFariData.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A949225F58BA004A4FBF /* GPFariData.m */; };
+		E032A978225F58BA004A4FBF /* GPFariHotData.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A94B225F58BA004A4FBF /* GPFariHotData.m */; };
+		E032A979225F58BA004A4FBF /* GPFariNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A94D225F58BA004A4FBF /* GPFariNetwork.m */; };
+		E032A97A225F58BA004A4FBF /* GPFariParmer.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A94F225F58BA004A4FBF /* GPFariParmer.m */; };
+		E032A97B225F58BA004A4FBF /* GPFariTopicData.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A951225F58BA004A4FBF /* GPFariTopicData.m */; };
+		E032A97C225F58BA004A4FBF /* GPContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A954225F58BA004A4FBF /* GPContainerView.m */; };
+		E032A97D225F58BA004A4FBF /* GPFairBestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A956225F58BA004A4FBF /* GPFairBestCell.m */; };
+		E032A97E225F58BA004A4FBF /* GPFairBestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E032A957225F58BA004A4FBF /* GPFairBestCell.xib */; };
+		E032A97F225F58BA004A4FBF /* GPFairHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A959225F58BA004A4FBF /* GPFairHotCell.m */; };
+		E032A980225F58BA004A4FBF /* GPFairHotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E032A95A225F58BA004A4FBF /* GPFairHotCell.xib */; };
+		E032A981225F58BA004A4FBF /* GPFairSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A95C225F58BA004A4FBF /* GPFairSectionHeadView.m */; };
+		E032A982225F58BA004A4FBF /* GPFairSectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E032A95D225F58BA004A4FBF /* GPFairSectionHeadView.xib */; };
+		E032A983225F58BA004A4FBF /* GPFariTopicBestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A95F225F58BA004A4FBF /* GPFariTopicBestCell.m */; };
+		E032A984225F58BA004A4FBF /* GPFariTopicBestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E032A960225F58BA004A4FBF /* GPFariTopicBestCell.xib */; };
+		E032A985225F58BA004A4FBF /* GPFariTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A962225F58BA004A4FBF /* GPFariTopicCell.m */; };
+		E032A986225F58BA004A4FBF /* GPFariTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E032A963225F58BA004A4FBF /* GPFariTopicCell.xib */; };
+		E032A987225F58BA004A4FBF /* GPSuperTiltleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A965225F58BA004A4FBF /* GPSuperTiltleView.m */; };
+		E032A988225F58BA004A4FBF /* GPAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E032A967225F58BA004A4FBF /* GPAutoFooter.m */; };
+		E032A989225F5964004A4FBF /* GPFairTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = E032A93D225F58BA004A4FBF /* GPFairTableViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E032A90B225F5814004A4FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E032A8EA225F5811004A4FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E032A8F1225F5811004A4FBF;
+			remoteInfo = GPLighterController;
+		};
+		E032A916225F5814004A4FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E032A8EA225F5811004A4FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E032A8F1225F5811004A4FBF;
+			remoteInfo = GPLighterController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42BDB4AD3059F5DCD953653 /* Pods-GPLighterController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPLighterController.debug.xcconfig"; path = "Target Support Files/Pods-GPLighterController/Pods-GPLighterController.debug.xcconfig"; sourceTree = "<group>"; };
+		E032A8F2225F5811004A4FBF /* GPLighterController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPLighterController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E032A8F5225F5811004A4FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E032A8F6225F5811004A4FBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E032A8F8225F5811004A4FBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E032A8F9225F5811004A4FBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E032A8FC225F5811004A4FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E032A8FE225F5814004A4FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E032A901225F5814004A4FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E032A903225F5814004A4FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E032A904225F5814004A4FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E032A90A225F5814004A4FBF /* GPLighterControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPLighterControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E032A90E225F5814004A4FBF /* GPLighterControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPLighterControllerTests.m; sourceTree = "<group>"; };
+		E032A910225F5814004A4FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E032A915225F5814004A4FBF /* GPLighterControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPLighterControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E032A919225F5814004A4FBF /* GPLighterControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPLighterControllerUITests.m; sourceTree = "<group>"; };
+		E032A91B225F5814004A4FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E032A927225F58B9004A4FBF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E032A928225F58B9004A4FBF /* GPHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHttpTool.h; sourceTree = "<group>"; };
+		E032A929225F58B9004A4FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E032A92A225F58B9004A4FBF /* GPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPWebViewController.h; sourceTree = "<group>"; };
+		E032A92D225F58B9004A4FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E032A92F225F58B9004A4FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		E032A930225F58B9004A4FBF /* GPHttpBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHttpBase.h; sourceTree = "<group>"; };
+		E032A931225F58B9004A4FBF /* GPHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHttpTool.m; sourceTree = "<group>"; };
+		E032A932225F58B9004A4FBF /* GPHttpBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHttpBase.m; sourceTree = "<group>"; };
+		E032A933225F58B9004A4FBF /* GPJianDaoHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPJianDaoHeader.m; sourceTree = "<group>"; };
+		E032A934225F58B9004A4FBF /* GPJianDaoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPJianDaoHeader.h; sourceTree = "<group>"; };
+		E032A935225F58B9004A4FBF /* GPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPWebViewController.m; sourceTree = "<group>"; };
+		E032A936225F58B9004A4FBF /* GPWebViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPWebViewController.storyboard; sourceTree = "<group>"; };
+		E032A939225F58BA004A4FBF /* GPFairArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFairArrayDataSource.h; sourceTree = "<group>"; };
+		E032A93A225F58BA004A4FBF /* GPFairArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFairArrayDataSource.m; sourceTree = "<group>"; };
+		E032A93B225F58BA004A4FBF /* GPFairDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFairDelegate.h; sourceTree = "<group>"; };
+		E032A93C225F58BA004A4FBF /* GPFairDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFairDelegate.m; sourceTree = "<group>"; };
+		E032A93D225F58BA004A4FBF /* GPFairTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFairTableViewController.h; sourceTree = "<group>"; };
+		E032A93E225F58BA004A4FBF /* GPFairTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFairTableViewController.m; sourceTree = "<group>"; };
+		E032A93F225F58BA004A4FBF /* GPFariGoodsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariGoodsController.h; sourceTree = "<group>"; };
+		E032A940225F58BA004A4FBF /* GPFariGoodsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariGoodsController.m; sourceTree = "<group>"; };
+		E032A941225F58BA004A4FBF /* GPFariMeturController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariMeturController.h; sourceTree = "<group>"; };
+		E032A942225F58BA004A4FBF /* GPFariMeturController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariMeturController.m; sourceTree = "<group>"; };
+		E032A943225F58BA004A4FBF /* GPMeturController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMeturController.h; sourceTree = "<group>"; };
+		E032A944225F58BA004A4FBF /* GPMeturController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMeturController.m; sourceTree = "<group>"; };
+		E032A946225F58BA004A4FBF /* GPFariBestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariBestData.h; sourceTree = "<group>"; };
+		E032A947225F58BA004A4FBF /* GPFariBestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariBestData.m; sourceTree = "<group>"; };
+		E032A948225F58BA004A4FBF /* GPFariData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariData.h; sourceTree = "<group>"; };
+		E032A949225F58BA004A4FBF /* GPFariData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariData.m; sourceTree = "<group>"; };
+		E032A94A225F58BA004A4FBF /* GPFariHotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariHotData.h; sourceTree = "<group>"; };
+		E032A94B225F58BA004A4FBF /* GPFariHotData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariHotData.m; sourceTree = "<group>"; };
+		E032A94C225F58BA004A4FBF /* GPFariNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariNetwork.h; sourceTree = "<group>"; };
+		E032A94D225F58BA004A4FBF /* GPFariNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariNetwork.m; sourceTree = "<group>"; };
+		E032A94E225F58BA004A4FBF /* GPFariParmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariParmer.h; sourceTree = "<group>"; };
+		E032A94F225F58BA004A4FBF /* GPFariParmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariParmer.m; sourceTree = "<group>"; };
+		E032A950225F58BA004A4FBF /* GPFariTopicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariTopicData.h; sourceTree = "<group>"; };
+		E032A951225F58BA004A4FBF /* GPFariTopicData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariTopicData.m; sourceTree = "<group>"; };
+		E032A953225F58BA004A4FBF /* GPContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPContainerView.h; sourceTree = "<group>"; };
+		E032A954225F58BA004A4FBF /* GPContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPContainerView.m; sourceTree = "<group>"; };
+		E032A955225F58BA004A4FBF /* GPFairBestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFairBestCell.h; sourceTree = "<group>"; };
+		E032A956225F58BA004A4FBF /* GPFairBestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFairBestCell.m; sourceTree = "<group>"; };
+		E032A957225F58BA004A4FBF /* GPFairBestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPFairBestCell.xib; sourceTree = "<group>"; };
+		E032A958225F58BA004A4FBF /* GPFairHotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFairHotCell.h; sourceTree = "<group>"; };
+		E032A959225F58BA004A4FBF /* GPFairHotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFairHotCell.m; sourceTree = "<group>"; };
+		E032A95A225F58BA004A4FBF /* GPFairHotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPFairHotCell.xib; sourceTree = "<group>"; };
+		E032A95B225F58BA004A4FBF /* GPFairSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFairSectionHeadView.h; sourceTree = "<group>"; };
+		E032A95C225F58BA004A4FBF /* GPFairSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFairSectionHeadView.m; sourceTree = "<group>"; };
+		E032A95D225F58BA004A4FBF /* GPFairSectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPFairSectionHeadView.xib; sourceTree = "<group>"; };
+		E032A95E225F58BA004A4FBF /* GPFariTopicBestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariTopicBestCell.h; sourceTree = "<group>"; };
+		E032A95F225F58BA004A4FBF /* GPFariTopicBestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariTopicBestCell.m; sourceTree = "<group>"; };
+		E032A960225F58BA004A4FBF /* GPFariTopicBestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPFariTopicBestCell.xib; sourceTree = "<group>"; };
+		E032A961225F58BA004A4FBF /* GPFariTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFariTopicCell.h; sourceTree = "<group>"; };
+		E032A962225F58BA004A4FBF /* GPFariTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFariTopicCell.m; sourceTree = "<group>"; };
+		E032A963225F58BA004A4FBF /* GPFariTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPFariTopicCell.xib; sourceTree = "<group>"; };
+		E032A964225F58BA004A4FBF /* GPSuperTiltleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSuperTiltleView.h; sourceTree = "<group>"; };
+		E032A965225F58BA004A4FBF /* GPSuperTiltleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSuperTiltleView.m; sourceTree = "<group>"; };
+		E032A966225F58BA004A4FBF /* GPAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAutoFooter.h; sourceTree = "<group>"; };
+		E032A967225F58BA004A4FBF /* GPAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAutoFooter.m; sourceTree = "<group>"; };
+		F8A298012D24902CAFCAE474 /* libPods-GPLighterController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPLighterController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63D42B8C870535ACACB59D /* Pods-GPLighterController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPLighterController.release.xcconfig"; path = "Target Support Files/Pods-GPLighterController/Pods-GPLighterController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E032A8EF225F5811004A4FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA91850ED59E38734C7306C /* libPods-GPLighterController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032A907225F5814004A4FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032A912225F5814004A4FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26274C0FB178A8614EA153C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C42BDB4AD3059F5DCD953653 /* Pods-GPLighterController.debug.xcconfig */,
+				FB63D42B8C870535ACACB59D /* Pods-GPLighterController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		41E7272998AE0C09F6023638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A298012D24902CAFCAE474 /* libPods-GPLighterController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E032A8E9225F5811004A4FBF = {
+			isa = PBXGroup;
+			children = (
+				E032A8F4225F5811004A4FBF /* GPLighterController */,
+				E032A90D225F5814004A4FBF /* GPLighterControllerTests */,
+				E032A918225F5814004A4FBF /* GPLighterControllerUITests */,
+				E032A8F3225F5811004A4FBF /* Products */,
+				26274C0FB178A8614EA153C3 /* Pods */,
+				41E7272998AE0C09F6023638 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E032A8F3225F5811004A4FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E032A8F2225F5811004A4FBF /* GPLighterController.app */,
+				E032A90A225F5814004A4FBF /* GPLighterControllerTests.xctest */,
+				E032A915225F5814004A4FBF /* GPLighterControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E032A8F4225F5811004A4FBF /* GPLighterController */ = {
+			isa = PBXGroup;
+			children = (
+				E032A929225F58B9004A4FBF /* Assets.xcassets */,
+				E032A92B225F58B9004A4FBF /* Base.lproj */,
+				E032A937225F58BA004A4FBF /* Fair(市集) */,
+				E032A966225F58BA004A4FBF /* GPAutoFooter.h */,
+				E032A967225F58BA004A4FBF /* GPAutoFooter.m */,
+				E032A930225F58B9004A4FBF /* GPHttpBase.h */,
+				E032A932225F58B9004A4FBF /* GPHttpBase.m */,
+				E032A928225F58B9004A4FBF /* GPHttpTool.h */,
+				E032A931225F58B9004A4FBF /* GPHttpTool.m */,
+				E032A934225F58B9004A4FBF /* GPJianDaoHeader.h */,
+				E032A933225F58B9004A4FBF /* GPJianDaoHeader.m */,
+				E032A92A225F58B9004A4FBF /* GPWebViewController.h */,
+				E032A935225F58B9004A4FBF /* GPWebViewController.m */,
+				E032A936225F58B9004A4FBF /* GPWebViewController.storyboard */,
+				E032A927225F58B9004A4FBF /* PrefixHeader.pch */,
+				E032A8F5225F5811004A4FBF /* AppDelegate.h */,
+				E032A8F6225F5811004A4FBF /* AppDelegate.m */,
+				E032A8F8225F5811004A4FBF /* ViewController.h */,
+				E032A8F9225F5811004A4FBF /* ViewController.m */,
+				E032A8FB225F5811004A4FBF /* Main.storyboard */,
+				E032A8FE225F5814004A4FBF /* Assets.xcassets */,
+				E032A900225F5814004A4FBF /* LaunchScreen.storyboard */,
+				E032A903225F5814004A4FBF /* Info.plist */,
+				E032A904225F5814004A4FBF /* main.m */,
+			);
+			path = GPLighterController;
+			sourceTree = "<group>";
+		};
+		E032A90D225F5814004A4FBF /* GPLighterControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E032A90E225F5814004A4FBF /* GPLighterControllerTests.m */,
+				E032A910225F5814004A4FBF /* Info.plist */,
+			);
+			path = GPLighterControllerTests;
+			sourceTree = "<group>";
+		};
+		E032A918225F5814004A4FBF /* GPLighterControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E032A919225F5814004A4FBF /* GPLighterControllerUITests.m */,
+				E032A91B225F5814004A4FBF /* Info.plist */,
+			);
+			path = GPLighterControllerUITests;
+			sourceTree = "<group>";
+		};
+		E032A92B225F58B9004A4FBF /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E032A92C225F58B9004A4FBF /* LaunchScreen.storyboard */,
+				E032A92E225F58B9004A4FBF /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		E032A937225F58BA004A4FBF /* Fair(市集) */ = {
+			isa = PBXGroup;
+			children = (
+				E032A938225F58BA004A4FBF /* Controller */,
+				E032A945225F58BA004A4FBF /* Model */,
+				E032A952225F58BA004A4FBF /* View */,
+			);
+			path = "Fair(市集)";
+			sourceTree = "<group>";
+		};
+		E032A938225F58BA004A4FBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E032A939225F58BA004A4FBF /* GPFairArrayDataSource.h */,
+				E032A93A225F58BA004A4FBF /* GPFairArrayDataSource.m */,
+				E032A93B225F58BA004A4FBF /* GPFairDelegate.h */,
+				E032A93C225F58BA004A4FBF /* GPFairDelegate.m */,
+				E032A93D225F58BA004A4FBF /* GPFairTableViewController.h */,
+				E032A93E225F58BA004A4FBF /* GPFairTableViewController.m */,
+				E032A93F225F58BA004A4FBF /* GPFariGoodsController.h */,
+				E032A940225F58BA004A4FBF /* GPFariGoodsController.m */,
+				E032A941225F58BA004A4FBF /* GPFariMeturController.h */,
+				E032A942225F58BA004A4FBF /* GPFariMeturController.m */,
+				E032A943225F58BA004A4FBF /* GPMeturController.h */,
+				E032A944225F58BA004A4FBF /* GPMeturController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E032A945225F58BA004A4FBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E032A946225F58BA004A4FBF /* GPFariBestData.h */,
+				E032A947225F58BA004A4FBF /* GPFariBestData.m */,
+				E032A948225F58BA004A4FBF /* GPFariData.h */,
+				E032A949225F58BA004A4FBF /* GPFariData.m */,
+				E032A94A225F58BA004A4FBF /* GPFariHotData.h */,
+				E032A94B225F58BA004A4FBF /* GPFariHotData.m */,
+				E032A94C225F58BA004A4FBF /* GPFariNetwork.h */,
+				E032A94D225F58BA004A4FBF /* GPFariNetwork.m */,
+				E032A94E225F58BA004A4FBF /* GPFariParmer.h */,
+				E032A94F225F58BA004A4FBF /* GPFariParmer.m */,
+				E032A950225F58BA004A4FBF /* GPFariTopicData.h */,
+				E032A951225F58BA004A4FBF /* GPFariTopicData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E032A952225F58BA004A4FBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E032A953225F58BA004A4FBF /* GPContainerView.h */,
+				E032A954225F58BA004A4FBF /* GPContainerView.m */,
+				E032A955225F58BA004A4FBF /* GPFairBestCell.h */,
+				E032A956225F58BA004A4FBF /* GPFairBestCell.m */,
+				E032A957225F58BA004A4FBF /* GPFairBestCell.xib */,
+				E032A958225F58BA004A4FBF /* GPFairHotCell.h */,
+				E032A959225F58BA004A4FBF /* GPFairHotCell.m */,
+				E032A95A225F58BA004A4FBF /* GPFairHotCell.xib */,
+				E032A95B225F58BA004A4FBF /* GPFairSectionHeadView.h */,
+				E032A95C225F58BA004A4FBF /* GPFairSectionHeadView.m */,
+				E032A95D225F58BA004A4FBF /* GPFairSectionHeadView.xib */,
+				E032A95E225F58BA004A4FBF /* GPFariTopicBestCell.h */,
+				E032A95F225F58BA004A4FBF /* GPFariTopicBestCell.m */,
+				E032A960225F58BA004A4FBF /* GPFariTopicBestCell.xib */,
+				E032A961225F58BA004A4FBF /* GPFariTopicCell.h */,
+				E032A962225F58BA004A4FBF /* GPFariTopicCell.m */,
+				E032A963225F58BA004A4FBF /* GPFariTopicCell.xib */,
+				E032A964225F58BA004A4FBF /* GPSuperTiltleView.h */,
+				E032A965225F58BA004A4FBF /* GPSuperTiltleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E032A8F1225F5811004A4FBF /* GPLighterController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E032A91E225F5814004A4FBF /* Build configuration list for PBXNativeTarget "GPLighterController" */;
+			buildPhases = (
+				E1FF17C324996B7AB3F13FC8 /* [CP] Check Pods Manifest.lock */,
+				E032A8EE225F5811004A4FBF /* Sources */,
+				E032A8EF225F5811004A4FBF /* Frameworks */,
+				E032A8F0225F5811004A4FBF /* Resources */,
+				1132E141B6CEEB875D26DBD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPLighterController;
+			productName = GPLighterController;
+			productReference = E032A8F2225F5811004A4FBF /* GPLighterController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E032A909225F5814004A4FBF /* GPLighterControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E032A921225F5814004A4FBF /* Build configuration list for PBXNativeTarget "GPLighterControllerTests" */;
+			buildPhases = (
+				E032A906225F5814004A4FBF /* Sources */,
+				E032A907225F5814004A4FBF /* Frameworks */,
+				E032A908225F5814004A4FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E032A90C225F5814004A4FBF /* PBXTargetDependency */,
+			);
+			name = GPLighterControllerTests;
+			productName = GPLighterControllerTests;
+			productReference = E032A90A225F5814004A4FBF /* GPLighterControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E032A914225F5814004A4FBF /* GPLighterControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E032A924225F5814004A4FBF /* Build configuration list for PBXNativeTarget "GPLighterControllerUITests" */;
+			buildPhases = (
+				E032A911225F5814004A4FBF /* Sources */,
+				E032A912225F5814004A4FBF /* Frameworks */,
+				E032A913225F5814004A4FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E032A917225F5814004A4FBF /* PBXTargetDependency */,
+			);
+			name = GPLighterControllerUITests;
+			productName = GPLighterControllerUITests;
+			productReference = E032A915225F5814004A4FBF /* GPLighterControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E032A8EA225F5811004A4FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = gp;
+				TargetAttributes = {
+					E032A8F1225F5811004A4FBF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E032A909225F5814004A4FBF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E032A8F1225F5811004A4FBF;
+					};
+					E032A914225F5814004A4FBF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E032A8F1225F5811004A4FBF;
+					};
+				};
+			};
+			buildConfigurationList = E032A8ED225F5811004A4FBF /* Build configuration list for PBXProject "GPLighterController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E032A8E9225F5811004A4FBF;
+			productRefGroup = E032A8F3225F5811004A4FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E032A8F1225F5811004A4FBF /* GPLighterController */,
+				E032A909225F5814004A4FBF /* GPLighterControllerTests */,
+				E032A914225F5814004A4FBF /* GPLighterControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E032A8F0225F5811004A4FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E032A984225F58BA004A4FBF /* GPFariTopicBestCell.xib in Resources */,
+				E032A96F225F58BA004A4FBF /* GPWebViewController.storyboard in Resources */,
+				E032A902225F5814004A4FBF /* LaunchScreen.storyboard in Resources */,
+				E032A97E225F58BA004A4FBF /* GPFairBestCell.xib in Resources */,
+				E032A980225F58BA004A4FBF /* GPFairHotCell.xib in Resources */,
+				E032A8FF225F5814004A4FBF /* Assets.xcassets in Resources */,
+				E032A968225F58BA004A4FBF /* Assets.xcassets in Resources */,
+				E032A96A225F58BA004A4FBF /* Main.storyboard in Resources */,
+				E032A986225F58BA004A4FBF /* GPFariTopicCell.xib in Resources */,
+				E032A982225F58BA004A4FBF /* GPFairSectionHeadView.xib in Resources */,
+				E032A969225F58BA004A4FBF /* LaunchScreen.storyboard in Resources */,
+				E032A8FD225F5811004A4FBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032A908225F5814004A4FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032A913225F5814004A4FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1132E141B6CEEB875D26DBD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPLighterController/Pods-GPLighterController-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPLighterController/Pods-GPLighterController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FF17C324996B7AB3F13FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPLighterController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E032A8EE225F5811004A4FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E032A989225F5964004A4FBF /* GPFairTableViewController.h in Sources */,
+				E032A97D225F58BA004A4FBF /* GPFairBestCell.m in Sources */,
+				E032A96B225F58BA004A4FBF /* GPHttpTool.m in Sources */,
+				E032A96C225F58BA004A4FBF /* GPHttpBase.m in Sources */,
+				E032A976225F58BA004A4FBF /* GPFariBestData.m in Sources */,
+				E032A97B225F58BA004A4FBF /* GPFariTopicData.m in Sources */,
+				E032A972225F58BA004A4FBF /* GPFairTableViewController.m in Sources */,
+				E032A983225F58BA004A4FBF /* GPFariTopicBestCell.m in Sources */,
+				E032A96D225F58BA004A4FBF /* GPJianDaoHeader.m in Sources */,
+				E032A975225F58BA004A4FBF /* GPMeturController.m in Sources */,
+				E032A979225F58BA004A4FBF /* GPFariNetwork.m in Sources */,
+				E032A985225F58BA004A4FBF /* GPFariTopicCell.m in Sources */,
+				E032A974225F58BA004A4FBF /* GPFariMeturController.m in Sources */,
+				E032A988225F58BA004A4FBF /* GPAutoFooter.m in Sources */,
+				E032A97C225F58BA004A4FBF /* GPContainerView.m in Sources */,
+				E032A8FA225F5811004A4FBF /* ViewController.m in Sources */,
+				E032A978225F58BA004A4FBF /* GPFariHotData.m in Sources */,
+				E032A96E225F58BA004A4FBF /* GPWebViewController.m in Sources */,
+				E032A981225F58BA004A4FBF /* GPFairSectionHeadView.m in Sources */,
+				E032A97F225F58BA004A4FBF /* GPFairHotCell.m in Sources */,
+				E032A97A225F58BA004A4FBF /* GPFariParmer.m in Sources */,
+				E032A970225F58BA004A4FBF /* GPFairArrayDataSource.m in Sources */,
+				E032A977225F58BA004A4FBF /* GPFariData.m in Sources */,
+				E032A987225F58BA004A4FBF /* GPSuperTiltleView.m in Sources */,
+				E032A905225F5814004A4FBF /* main.m in Sources */,
+				E032A8F7225F5811004A4FBF /* AppDelegate.m in Sources */,
+				E032A973225F58BA004A4FBF /* GPFariGoodsController.m in Sources */,
+				E032A971225F58BA004A4FBF /* GPFairDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032A906225F5814004A4FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E032A90F225F5814004A4FBF /* GPLighterControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E032A911225F5814004A4FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E032A91A225F5814004A4FBF /* GPLighterControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E032A90C225F5814004A4FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E032A8F1225F5811004A4FBF /* GPLighterController */;
+			targetProxy = E032A90B225F5814004A4FBF /* PBXContainerItemProxy */;
+		};
+		E032A917225F5814004A4FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E032A8F1225F5811004A4FBF /* GPLighterController */;
+			targetProxy = E032A916225F5814004A4FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E032A8FB225F5811004A4FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E032A8FC225F5811004A4FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E032A900225F5814004A4FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E032A901225F5814004A4FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E032A92C225F58B9004A4FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E032A92D225F58B9004A4FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E032A92E225F58B9004A4FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E032A92F225F58B9004A4FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E032A91C225F5814004A4FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E032A91D225F5814004A4FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E032A91F225F5814004A4FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42BDB4AD3059F5DCD953653 /* Pods-GPLighterController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GPLighterController/PrefixHeader.pch;
+				INFOPLIST_FILE = GPLighterController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gp.GPLighterController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E032A920225F5814004A4FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB63D42B8C870535ACACB59D /* Pods-GPLighterController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GPLighterController/PrefixHeader.pch;
+				INFOPLIST_FILE = GPLighterController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gp.GPLighterController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E032A922225F5814004A4FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLighterControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gp.GPLighterControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPLighterController.app/GPLighterController";
+			};
+			name = Debug;
+		};
+		E032A923225F5814004A4FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLighterControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gp.GPLighterControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPLighterController.app/GPLighterController";
+			};
+			name = Release;
+		};
+		E032A925225F5814004A4FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLighterControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gp.GPLighterControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPLighterController;
+			};
+			name = Debug;
+		};
+		E032A926225F5814004A4FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPLighterControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gp.GPLighterControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPLighterController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E032A8ED225F5811004A4FBF /* Build configuration list for PBXProject "GPLighterController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E032A91C225F5814004A4FBF /* Debug */,
+				E032A91D225F5814004A4FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E032A91E225F5814004A4FBF /* Build configuration list for PBXNativeTarget "GPLighterController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E032A91F225F5814004A4FBF /* Debug */,
+				E032A920225F5814004A4FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E032A921225F5814004A4FBF /* Build configuration list for PBXNativeTarget "GPLighterControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E032A922225F5814004A4FBF /* Debug */,
+				E032A923225F5814004A4FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E032A924225F5814004A4FBF /* Build configuration list for PBXNativeTarget "GPLighterControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E032A925225F5814004A4FBF /* Debug */,
+				E032A926225F5814004A4FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E032A8EA225F5811004A4FBF /* Project object */;
+}

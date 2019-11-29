@@ -1,0 +1,126 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Src/FirstVC
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+FirstVC_imgs
+dir
+
+FirstVCHeader.h
+file
+
+
+
+
+2015-12-15T02:23:04.000000Z
+48fcadd78eea04ec55773f2f3d77ef0a
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+FirstCell.m
+file
+2292
+
+
+
+2016-01-11T07:41:16.000000Z
+e146f1c8e831b3ee6bd334c790c614d4
+2016-01-11T09:47:19.162064Z
+2292
+cma
+has-props
+
+Models
+dir
+
+FirstVCHeader.m
+file
+2294
+
+
+
+2016-01-11T10:17:20.000000Z
+e3014c6b52f2df252a3fffa103698204
+2016-01-11T10:11:11.228979Z
+2294
+cma
+has-props
+
+FirstVC.h
+file
+
+
+
+
+2016-01-05T06:19:26.000000Z
+11d6a68050fbe9a1a706b5afa67fae50
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+FirstCell.xib
+file
+
+
+
+
+2015-12-15T02:23:04.000000Z
+857abc187d7b112efd563767a2a44ef0
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+FirstVCHeader.xib
+file
+
+
+
+
+2015-12-15T02:23:04.000000Z
+4ac91dd2b67f9da098e44e18c0410628
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+FirstVC.m
+file
+2292
+
+
+
+2016-01-11T02:19:10.000000Z
+f12ca359081648a7884fdefbec8b82f9
+2016-01-11T09:47:19.162064Z
+2292
+cma
+has-props
+
+FirstCell.h
+file
+
+
+
+
+2015-12-15T02:23:04.000000Z
+00ce04e3749945402472ab1c0e373bb5
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+

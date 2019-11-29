@@ -1,0 +1,132 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Public/zfb
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+APAuthV2Info.m
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+1951f983bac73fb62c3cabcb2b7c5f4e
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+Order.h
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+a32d0f6d0133e1eb5f56d50f9dcce91b
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+WYZfbPay.h
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+1b59357db3292d8b3b8f55603f42b4a3
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+openssl
+dir
+
+libcrypto.a
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+3877b4810d44dfea8556c864d294be92
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+Order.m
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+f057558e90a9efad9bb6d863bf79a556
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+WYZfbPay.m
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+3ee43cd9a3d44610719ff510bd1def2c
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+libssl.a
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+3e66ea10babda0b3991aaa16c0e697ec
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+AlipaySDK.bundle
+dir
+
+APAuthV2Info.h
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+94ddcae3594a9c497ff5ed8b4acb91b5
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+AlipaySDK.framework
+dir
+
+Util
+dir
+

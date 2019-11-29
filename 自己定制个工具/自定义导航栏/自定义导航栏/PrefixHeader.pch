@@ -1,0 +1,79 @@
+//
+//  PrefixHeader.pch
+//  自定义导航栏
+//
+//  Created by 郭鹏 on 16/5/16.
+//  Copyright © 2016年 郭鹏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+typedef enum {
+    
+    LEVEL_ALL,
+    LEVEL_1,
+    LEVEL_2,
+    LEVEL_3,
+    LEVEL_4,
+    LEVEL_5,
+    
+}LOG_LEVEL;
+
+extern void myLevelLog(int line,char *functname,char *file,LOG_LEVEL level, id formatstring,...);
+#define DLog(format,...) myLevelLog(__LINE__,(char *)__FUNCTION__,(char *)__FILE__,LEVEL_ALL,format, ##__VA_ARGS__)
+#define IOS7 ([[[UIDevice currentDevice]systemVersion]floatValue] >= 7.0)
+#define iOS7Later                           ((IOS7) ? YES : NO)
+#define Rect(x, y, w, h)                    CGRectMake(x, y, w, h)
+#define ScreenWidth                         [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight                        [[UIScreen mainScreen] bounds].size.height
+#define  VProportion ScreenHeight / 568.0f //垂直方向的屏幕比例
+#define  HProportion ScreenWidth / 320.0f  //水平方向的屏幕比例
+#define VProportionImg  ScreenHeight/667//UI设计以6的屏幕为参考
+#define HProportionImg  ScreenWidth/375
+#define Size(w, h)                          CGSizeMake(w, h)
+#define RGB(r, g, b)                        [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:1.0]
+#define CommonGreenColor                        RGB(49, 195, 124)
+#define RGB_TextDark                            RGB(10.0f, 10.0f, 10.0f)
+#define IOSVersion                          [[[UIDevice currentDevice] systemVersion] floatValue]
+#define IsiOS7Later                         !(IOSVersion < 7.0)
+//#import "UtilityFunc.h"
+#define Is4Inch                                 [UtilityFunc is4InchScreen]
+#define LogRed(frmt, ...) DLog((XCODE_COLORS_ESCAPE @"fg250,0,0;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+#define XCODE_COLORS_ESCAPE_MAC @"\033["
+#define XCODE_COLORS_ESCAPE_IOS @"\xC2\xA0["
+#define XCODE_COLORS_ESCAPE  XCODE_COLORS_ESCAPE_MAC
+#define XCODE_COLORS_RESET_FG  XCODE_COLORS_ESCAPE @"fg;" // Clear any foreground color
+#define XCODE_COLORS_RESET_BG  XCODE_COLORS_ESCAPE @"bg;" // Clear any background color
+#define XCODE_COLORS_RESET     XCODE_COLORS_ESCAPE @";"
+#define APP_ASSERT_STOP                     {LogRed(@"APP_ASSERT_STOP"); NSAssert1(NO, @" \n\n\n===== APP Assert. =====\n%s\n\n\n", __PRETTY_FUNCTION__);}
+#define APP_ASSERT(condition)               {NSAssert(condition, @" ! Assert");}
+#define RGBA(r, g, b, a)                    [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:a]
+#define StatusBarHeight                     [UIApplication sharedApplication].statusBarFrame.size.height
+#define NaviBarHeight                       44.0f
+#define RGB_TextLightGray                       RGB(200.0f, 200.0f, 200.0f)
+#define RGB_TextAppOrange                       RGB(224.0f, 83.0f, 51.0f)
+#define RGB_TextDarkGray                        RGB(100.0f, 100.0f, 100.0f)
+#define TabBarHeight                        49.0f
+#endif /* PrefixHeader_pch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

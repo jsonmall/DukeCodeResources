@@ -1,0 +1,9 @@
+platform :ios, "8.0"
+target "GPLighterController" do
+pod "MJExtension"
+pod "SDWebImage"
+pod "AFNetworking"
+pod "MJRefresh"
+pod "SDAutoLayout"
+pod "SVProgressHUD"
+end

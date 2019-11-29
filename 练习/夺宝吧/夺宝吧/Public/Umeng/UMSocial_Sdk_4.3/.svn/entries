@@ -1,0 +1,44 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Public/Umeng/UMSocial_Sdk_4.3
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+SocialSDKXib
+dir
+
+en.lproj
+dir
+
+libUMSocial_Sdk_4.3.a
+file
+
+
+
+
+2015-12-15T02:23:10.000000Z
+296b9395d92e6bb0ae6f2aa56a1c188e
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+Header
+dir
+
+UMSocialSDKResourcesNew.bundle
+dir
+
+zh-Hans.lproj
+dir
+

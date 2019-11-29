@@ -1,0 +1,42 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Public/jd
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+JDWebPayVC.h
+file
+
+
+
+
+2015-12-15T02:23:08.000000Z
+1203b3e3694197dce61581f9fe93d97d
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+JDWebPayVC.m
+file
+
+
+
+
+2016-01-05T02:47:26.000000Z
+f3516f30789d69e1e4a0226cfed01272
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+

@@ -1,0 +1,13 @@
+platform :ios,'8.0'
+target "MeetingAll" do
+pod "AFNetworking","~>3.0"
+pod 'SDCycleScrollView'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'Toast', '~> 2.4'
+pod 'QBImagePickerController','~>3.0'
+pod 'BarrageRenderer','~>1.8.0'
+pod 'GPUImage','~>0.1.7'
+pod ‘pop’
+end 

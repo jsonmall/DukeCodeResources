@@ -1,0 +1,91 @@
+//
+//  PrefixHeader.pch
+//  夺宝吧
+//
+//  Created by xiaocai on 15/6/15.
+//  Copyright (c) 2015年 FangYuan. All rights reserved.
+//
+
+#ifndef ____PrefixHeader_pch
+#define ____PrefixHeader_pch
+
+
+
+
+#ifdef __OBJC__
+
+//realease中不打印log
+//#ifdef __OPTIMIZE__
+//#define NSLog(...) NSLog(__VA_ARGS__)
+//#else
+//#define NSLog(...)
+//#endif
+
+//系统中常量文件
+#import "ServerPathConstants.h"
+//代理中的rootVC
+#import "AppDelegate.h"
+//主界面框架
+#import "WYMainTabBarVC.h"
+//数据请求
+#import "WYRequest.h"
+//加载图片
+#import "UIImageView+WebCache.h"
+//公共类
+#import "WYPublic.h"
+//用户信息
+#import "UserInfo.h"
+//数据库
+#import "WYDataBase.h"
+//返回按钮
+#import "PublicBackBtn.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕的高宽
+#define WYMWITH ([UIScreen mainScreen].bounds.size.width)
+#define WYMHEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+//颜色——红
+#define QBB_RED_COLOR [UIColor colorWithPatternImage:[UIImage imageNamed:@"Red_Color_img"]]
+//颜色---灰
+#define QBB_GRAY_COLOR [UIColor colorWithPatternImage:[UIImage imageNamed:@"Dbb_backColor"]]
+//系统版本
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+//窗体
+#define WINDOW [UIApplication sharedApplication].delegate.window
+
+//导航栏titlesize
+#define TITLE_SIZE 20
+
+
+//适配
+#define AUTOY  ([UIScreen mainScreen].bounds.size.height)/568
+#define AUTOX  ([UIScreen mainScreen].bounds.size.width)/320
+
+//调试打印调用堆栈
+#define NSSTRING_PRETTY_FUNCTION [NSString stringWithCString:__PRETTY_FUNCTION__ encoding:NSASCIIStringEncoding]
+
+
+
+//多久自动刷新一次界面
+#define TIMER_COUNT 30
+//HUD透明度
+#define HUD_ALPHA 0.7
+//AppVersion
+#define AppVersion @"1.1.34"
+//充值最高额度
+#define CHONGZHI_LIMIT 1000
+//购物车最低默认购买期数
+#define SHOPPING_CAR_DEFAULT_COUNT 5
+//进度条延迟消失的时间
+#define HUD_DELAY_TIME 0.1 
+//arc_random生成的最大数
+#define ARC_RANDOM_MAX 0x100000000
+
+#endif
+
+
+
+#endif
+

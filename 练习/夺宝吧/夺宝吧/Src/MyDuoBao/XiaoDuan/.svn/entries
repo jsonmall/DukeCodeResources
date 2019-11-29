@@ -1,0 +1,42 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Src/MyDuoBao/XiaoDuan
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+MyDuoBaoController.h
+file
+
+
+
+
+2015-12-15T02:23:04.000000Z
+1e397454977d6e23941b426dd95514eb
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+MyDuoBaoController.m
+file
+
+
+
+
+2015-12-15T02:23:04.000000Z
+c3f3ade8e885db54d0c2d0581fd268a2
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+

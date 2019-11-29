@@ -1,0 +1,54 @@
+8
+
+dir
+2266
+http://cma@192.168.1.168:81/svn/yougou/iphone/branches/v1.1.34/iOS/%E5%A4%BA%E5%AE%9D%E5%90%A7/Public/Umeng
+http://cma@192.168.1.168:81/svn/yougou
+
+
+
+2016-01-06T07:14:34.457781Z
+2255
+cma
+
+
+svn:special svn:externals svn:needs-lock
+
+UMSocial_Sdk_4.3
+dir
+
+UMengRgt.m
+file
+
+
+
+
+2016-01-05T02:47:26.000000Z
+872d509f02423196ef53cb84f386fbf4
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
+TencentOpenApi_IOS_Bundle.bundle
+dir
+
+TencentOpenAPI.framework
+dir
+
+UMAnalytics_Sdk_3.5.10
+dir
+
+UMengRgt.h
+file
+
+
+
+
+2016-01-05T02:47:26.000000Z
+9b47727a7b77ecc613eb57a5c2ed17f2
+2016-01-06T07:14:34.457781Z
+2255
+cma
+has-props
+
